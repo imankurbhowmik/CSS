@@ -1,0 +1,50 @@
+/* #box1{
+    height: 100px;
+    width: 100 px;
+    background-color: green;
+    font-size: 10px
+}
+
+#box2{
+    background-color: yellow;
+    height: 50px;
+    width: 30%;
+    font-size: 2 em;
+    width: 5em;
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    position : static;
+    background-image: url("https://images.firstpost.com/uploads/2024/02/MS-Dhoni-CSK-IPL-2023-PTI-1200-2024-02-9c8c7d515e57c707fd33cef140b5d687.jpg?im=FitAndFill=(596,336)");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#box2{
+    position: relative;
+    top: 10px;
+}
+
+#box3{
+    position: absolute;
+    top: 10px;
+}
+
+#box4{
+    position: fixed;
+    top: 0;
+    width: 90vw;
+}
+
+#box5{
+    position: sticky;
+    top: 0px;
+}
