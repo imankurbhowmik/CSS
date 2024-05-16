@@ -11,15 +11,3 @@ body{
     /* background-color: rgb(0,255,0); */
     background-color: #00ff00;
 }
-
-.box{
-    background-color: blue;
-}
-
-h1, h2, h3{
-    color: red;
-}
-
-button{
-    background-color: green;
-}
