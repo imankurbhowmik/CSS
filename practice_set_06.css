@@ -1,0 +1,32 @@
+ul{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: red;
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+
+
+.outer{
+    background-color: blue;
+    height :400 px; 
+    width : 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    background-color: orange;
+    height :100 px; 
+    width : 100px;
+}
